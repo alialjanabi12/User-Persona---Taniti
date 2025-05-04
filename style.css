@@ -1,0 +1,137 @@
+body {
+  background: linear-gradient(145deg, #f3f3f3, #ffffff);
+  font-family: 'Poppins', sans-serif;
+}
+
+.persona-wrapper {
+  max-width: 1000px;
+  margin: 40px auto;
+  background: #f9f9f9;
+  border-radius: 20px;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 20px 20px 60px #dcdcdc, -20px -20px 60px #ffffff;
+}
+
+.persona-left {
+  background: linear-gradient(145deg, #d48284, #c67375);
+  color: white;
+  padding: 30px;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.persona-left img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 4px solid white;
+  object-fit: cover;
+  margin-bottom: 20px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.persona-name {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+.persona-title {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.persona-tag {
+  background-color: rgba(255, 255, 255, 0.15);
+  padding: 6px 14px;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  margin-top: 12px;
+  box-shadow: inset 2px 2px 5px rgba(255, 255, 255, 0.3), inset -2px -2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.left-box {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 15px 20px;
+  border-radius: 12px;
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.left-box h6 {
+  font-weight: 600;
+  font-size: 1rem;
+  margin-bottom: 10px;
+}
+
+.left-box ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 0.9rem;
+}
+
+.left-box p {
+  font-size: 0.9rem;
+  margin: 0;
+}
+
+.persona-right {
+  padding: 30px;
+  width: 65%;
+  background: #f9f9f9;
+}
+
+.persona-section {
+  margin-bottom: 30px;
+  background: #f0f0f0;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: inset 5px 5px 10px #dcdcdc, inset -5px -5px 10px #ffffff;
+}
+
+.persona-section h5 {
+  font-size: 1.2rem;
+  color: #d48284;
+  margin-bottom: 5px;
+}
+
+.persona-section small {
+  display: block;
+  color: #999;
+  margin-bottom: 12px;
+  font-size: 0.85rem;
+}
+
+.persona-section ul {
+  padding-left: 20px;
+  margin: 0;
+  color: #555;
+}
+
+.persona-section p {
+  color: #444;
+  line-height: 1.6;
+  font-style: normal;
+}
+
+@media (max-width: 768px) {
+  .persona-wrapper {
+    flex-direction: column;
+  }
+
+  .persona-left,
+  .persona-right {
+    width: 100%;
+  }
+
+  .persona-left img {
+    width: 120px;
+    height: 120px;
+  }
+}
