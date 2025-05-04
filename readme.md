@@ -1,7 +1,7 @@
 # Rachel Simmons – User Persona
 
 This is a user persona webpage created for the Taniti Tourism website project.
-<img src="screenshot.jpg" alt="Taniti Website Screenshot" />
+<img src="screenshot.png" alt="Taniti Website Screenshot" />
 
 ## About
 
